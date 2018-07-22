@@ -1,13 +1,21 @@
 @import 'global';
 
-.intro {
+.wrapper{
   padding: 120px 100px;
   height: 100vh;
-  flex-direction: column;
-  justify-content: space-around;
   max-width: 1440px;
   display:flex;
   margin: 0 auto;
+}
+
+.intro {
+
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 960px;
+  width:60%;
+  display:flex;
+  // margin: 0 auto;
   @include weird-medium {
     padding: 120px 70px;
   }
@@ -169,13 +177,15 @@
     }
     
   }
-  &__selfie{
-    width: 500px;
-    height:500px;
-    position: absolute;
-    right: 10%;
-    top:20%;
-    z-index:0;
-    float:right;
-    }
+}
+
+.picture{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    max-width:480px;
+    top:400px;
+
 }

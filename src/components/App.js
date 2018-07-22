@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <Switch /> 
-        <Intro />
+          <Intro />
         {/* <Background />
         <Skills />
         <Experience />
