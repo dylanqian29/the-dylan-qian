@@ -153,10 +153,7 @@
         }
       }
     }
-    .selfie {
-      display: block;
-      text-align: right;
-    }
+
     .highlight-link {
       @include transition;
       font-weight: 400;
@@ -170,5 +167,15 @@
         color: $white;
       }
     }
+    
   }
+  &__selfie{
+    width: 500px;
+    height:500px;
+    position: absolute;
+    right: 10%;
+    top:20%;
+    z-index:0;
+    float:right;
+    }
 }

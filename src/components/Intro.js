@@ -22,7 +22,7 @@ class Intro extends Component {
             <a href="mailto:dylan.qian.29@gmail.com" target="_blank" class="highlight-link">dylan.qian.29@gmail.com</a>
           </span>
         </h3>
-      </header>
+        <img className='intro__selfie' src="https://s3-us-west-1.amazonaws.com/thedylanqian/dylanqian.JPG" alt = ""/>      </header>
     );
   }
 }
