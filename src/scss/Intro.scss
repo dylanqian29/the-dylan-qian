@@ -1,4 +1,5 @@
 @import 'global';
+@import "index";
 
 .wrapper{
   padding: 120px 100px;
@@ -9,7 +10,6 @@
 }
 
 .intro {
-
   flex-direction: column;
   justify-content: space-around;
   max-width: 960px;
@@ -123,6 +123,7 @@
         height: 30px;
         margin: 0 5px;
         vertical-align: text-bottom;
+        cursor: pointer;
         @include phablet {
           width: 25px;
           height: 25px;

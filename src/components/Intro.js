@@ -12,7 +12,7 @@ class Intro extends Component {
           </h1>
 
           <h2 class="intro__tagline">I'm
-            <span class="name"> Dylan Qian</span>, a San Francisco based fullstack software engineer and dancer, who focused on building creative and beautiful interfaces
+            <span class="name"> Dylan Qian</span>, a San Francisco based fullstack software engineer and dancer, who focuses on building creative and beautiful interfaces
             <span class="emoji technologist"></span>
           </h2>
 
@@ -20,7 +20,7 @@ class Intro extends Component {
             <span>Get in touch </span>
             <span class="emoji pointer animated"></span>
             <span>
-              <a href="mailto:dylan.qian.29@gmail.com" target="_blank" class="highlight-link">dylan.qian.29@gmail.com</a>
+              <a href="mailto:dylan.qian.29@gmail.com" class="highlight-link">dylan.qian.29@gmail.com</a>
             </span>
           </h3>
         </div>
