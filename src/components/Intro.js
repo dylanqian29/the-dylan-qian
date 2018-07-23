@@ -7,7 +7,7 @@ class Intro extends Component {
     return (
       <header className = "wrapper">
         <div class="intro">
-          <h1 class="intro__hello">Hello!
+          <h1 class="intro__hello"><strong> Hello!你好！</strong>
             <span class="emoji wave-hand animated"></span>
           </h1>
 

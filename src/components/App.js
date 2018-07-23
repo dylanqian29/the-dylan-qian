@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Switch from '../components/Switch.js'
+// import Switch from '../components/Switch.js'
 import Intro from '../components/Intro.js'
 import Background from '../components/Background.js'
 import Skills from '../components/Skills.js'
@@ -16,10 +16,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Switch /> 
-          <Intro />
+        {/* <Switch />  */}
+        <Intro />
         <Background />
-         <Skills />
+        <Skills />
         <Experience />
         <Projects />
         {/* <Other /> */}
