@@ -7,6 +7,19 @@
   max-width: 1440px;
   display:flex;
   margin: 0 auto;
+  @include weird-medium {
+    padding: 120px 70px;
+    margin: 100px auto;
+  }
+  @include phablet {
+    padding: 120px 50px;
+    margin: 100px auto;
+  }
+  @include mobile {
+    padding: 70px 50px;
+    flex-direction: column;
+    margin: 100px auto;
+  }
 }
 
 .intro {
@@ -16,15 +29,7 @@
   width:60%;
   display:flex;
   // margin: 0 auto;
-  @include weird-medium {
-    padding: 120px 70px;
-  }
-  @include phablet {
-    padding: 120px 50px;
-  }
-  @include mobile {
-    padding: 70px 50px;
-  }
+
 
   &__hello, &__tagline {
     font-size: 2.5rem;
@@ -188,5 +193,17 @@
     margin: 0 auto;
     max-width:480px;
     top:400px;
-
+    @include weird-medium {
+      padding: 120px 70px;
+    }
+    @include phablet {
+      padding: 120px 50px;
+    }
+    @include mobile {
+      padding: 0;
+      margin: 0;
+      margin-top:250px;
+      width: 250px;
+      height: 250px;
+    }
 }
