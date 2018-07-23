@@ -28,6 +28,7 @@ $phablet-width: 550px;
 $mobile-width: 480px;
 $small-mobile-width: 360px;
 $tiny-mobile-width: 330px;
+$portrait-mobile-width:700px;
 
 @mixin transition {
   transition: all 0.2s ease-in-out;
@@ -83,6 +84,12 @@ $tiny-mobile-width: 330px;
 
 @mixin tiny-mobile {
   @media screen and (max-width: #{$tiny-mobile-width}) {
+    @content;
+  }
+}
+
+@mixin portrait-mobile{
+  @media screen and (max-width : #{$portrait-mobile-width}){
     @content;
   }
 }
