@@ -6,21 +6,21 @@ class Intro extends Component {
   render() {
     return (
       <header className = "wrapper">
-        <div class="intro">
-          <h1 class="intro__hello"><strong> Hello!你好！</strong>
-            <span class="emoji wave-hand animated"></span>
+        <div className="intro">
+          <h1 className="intro__hello"><strong> Hello!你好！</strong>
+            <span className="emoji wave-hand animated"></span>
           </h1>
 
-          <h2 class="intro__tagline">I'm
-            <span class="name"> Dylan Qian</span>, a San Francisco based fullstack software engineer and dancer, who focuses on building creative and beautiful interfaces
-            <span class="emoji technologist"></span>
+          <h2 className="intro__tagline">I'm
+            <span className="name"> Dylan Qian</span>, a San Francisco based fullstack software engineer and dancer, who focuses on building creative and beautiful interfaces
+            <span className="emoji technologist"></span>
           </h2>
 
-          <h3 class="intro__contact">
+          <h3 className="intro__contact">
             <span>Get in touch </span>
-            <span class="emoji pointer animated"></span>
+            <span className="emoji pointer animated"></span>
             <span>
-              <a href="mailto:dylan.qian.29@gmail.com" class="highlight-link">dylan.qian.29@gmail.com</a>
+              <a href="mailto:dylan.qian.29@gmail.com" className="highlight-link">dylan.qian.29@gmail.com</a>
             </span>
           </h3>
         </div>

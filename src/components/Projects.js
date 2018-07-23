@@ -34,18 +34,18 @@ class Projects extends Component {
 
   render() {
     return (
-      <section class="section featured-projects">
+      <section className="section featured-projects">
         {this.state.isOpen && <Modal id={this.state.id} closeModal={this.closeModal}/>}
-        <div class="section__title"> Projects</div>
-          <div class="section__content">
-            <div class="project welp">
-              <figure class="project__pic">
+        <div className="section__title"> Projects</div>
+          <div className="section__content">
+            <div className="project welp">
+              <figure className="project__pic">
                 <a >
                   <img onClick={() => this.openModal("sxe5fRYas0c")} src="https://s3-us-west-1.amazonaws.com/thedylanqian/welp.png" alt=""/>
                 </a>
               </figure>
-              <figcaption class="project__caption">
-                  <div class="project__name">
+              <figcaption className="project__caption">
+                  <div className="project__name">
                 <a onClick={() => this.openModal("sxe5fRYas0c")}> Welp </a>
                   </div>
                 <p>Reviews app for local businesses and restaurants using ReactJS, Node.js, Express.js, MongoDB, Redis, Docker, Jest, Enzyme, Flexbox</p>
@@ -53,14 +53,14 @@ class Projects extends Component {
             </div>
 
 
-            <div class="project dreambnb">
-              <figure class="project__pic">
+            <div className="project dreambnb">
+              <figure className="project__pic">
                 <a >
                   <img src="https://s3-us-west-1.amazonaws.com/thedylanqian/dreambnb.png" alt="" />
                 </a>
               </figure>
-              <figcaption class="project__caption">
-                <div class="project__name">
+              <figcaption className="project__caption">
+                <div className="project__name">
                   <a> Dreambnb </a>
                 </div>
               <p>Optimization for back-end architecture to handle heavy traffic and ensure scalability using ReactJS, Node.js, GraphQL, Server-Side Rendering, Artillery.io, New Relic</p>
@@ -68,14 +68,14 @@ class Projects extends Component {
             </div>
 
 
-            <div class="project dancein">
-              <figure class="project__pic">
+            <div className="project dancein">
+              <figure className="project__pic">
                 <a >
                 <img onClick={() => this.openModal("jKaH6Mbl1G8")} src="https://s3-us-west-1.amazonaws.com/thedylanqian/dancein.png" alt="" />
                 </a>
               </figure>
-              <figcaption class="project__caption">
-                <div class="project__name">
+              <figcaption className="project__caption">
+                <div className="project__name">
                 <a onClick={() => this.openModal("jKaH6Mbl1G8")}> DanceIn </a>
                 </div>
                 <p> Social network and events app for dancers using React Router, Passport.js, Bootstrap</p>

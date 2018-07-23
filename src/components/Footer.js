@@ -6,29 +6,29 @@ import '../scss/Footer.scss';
 class Footer extends Component {
   render() {
     return (
-      <footer class="footer">
-        <div class="footer__copyright">
-          <div class="top">
+      <footer className="footer">
+        <div className="footer__copyright">
+          <div className="top">
             <span> Developed by</span>
           </div>
-          <div class="bottom">
+          <div className="bottom">
             <span>Dylan Qian </span>
-            <img class="emoji" src="https://s3-us-west-1.amazonaws.com/thedylanqian/man-dancing.png" alt="emoji"/>
+            <img className="emoji" src="https://s3-us-west-1.amazonaws.com/thedylanqian/man-dancing.png" alt="emoji"/>
               <span>2018</span>
           </div>
         </div>
-        <div class="footer__links">
+        <div className="footer__links">
           <a href="dylan.qian.29@gmail.com" title="email">
-          <span class="text">Email</span>
+          <span className="text">Email</span>
           </a>
           <a href="https://www.linkedin.com/in/dylanqian29/" title="linkedin">
-            <span class="text">LinkedIn</span>
+            <span className="text">LinkedIn</span>
           </a>
           <a href="https://github.com/dylanqian29" title="github">
-            <span class="text">Github</span>
+            <span className="text">Github</span>
           </a>
           <a href="https://www.instagram.com/dylanqian/" title="instagram">
-            <span class="text">Instagram</span>
+            <span className="text">Instagram</span>
           </a>
 
         </div>
