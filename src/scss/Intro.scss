@@ -19,6 +19,7 @@
     padding: 70px 50px;
     flex-direction: column;
     margin: 100px auto;
+    width:100%
   }
 }
 
@@ -29,12 +30,23 @@
   width:60%;
   display:flex;
   // margin: 0 auto;
+  @include weird-medium {
+    width:100%
+  }
+  @include phablet {
+    width:100%
 
+  }
+  @include mobile {
+    width:100%
+
+  }
 
   &__hello, &__tagline {
     font-size: 2.5rem;
     @include desktop {
       font-size: 2.25rem;
+      
     }
     @include tablet {
       font-size: 2rem;
@@ -43,10 +55,10 @@
       font-size: 1.75rem;
     }
     @include small-mobile {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     @include tiny-mobile {
-      font-size: 1.4rem;
+      font-size: 1rem;
     }
     .emoji {
       width: 40px;
@@ -202,7 +214,7 @@
     @include mobile {
       padding: 0;
       margin: 0;
-      margin-top:250px;
+      margin-top:100px;
       width: 250px;
       height: 250px;
     }
