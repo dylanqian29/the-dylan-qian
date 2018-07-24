@@ -18,7 +18,7 @@ class Background extends Component {
 
           <p>
             As a software engineer, I enjoy bridging the gap between engineering and business &mdash; combining my technical knowledge
-            and business background to create applications that can bring people conveninence. Even the tech industry is getting more satured, 
+            and business background to create applications that can bring people conveninence. Even though the tech industry is getting more satured, 
             I always believe that there are tons of <a className="underline-link" href="https://en.wikipedia.org/wiki/Blue_Ocean_Strategy">Blue Oceans</a> out there for me to discover.
           </p>
 
