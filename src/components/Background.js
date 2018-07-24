@@ -13,7 +13,7 @@ class Background extends Component {
             I'm currently a Software Engineer and Teaching Associate at <a className="underline-link" href="https://www.hackreactor.com/" > Hack Reactor</a>  building things with awesome people and mentoring new engineers. I graduated from
             <a className="underline-link" href="https://msem.engineering.jhu.edu/">Johns Hopkins for M.S in Engineering Management Program</a> in 2017.
             After pursuing business career as a Business Consultant at <a className="underline-link" href="http://www.unitedamgpartners.com/">United AMG Partners</a>, 
-            I found my passion in creating and optimizing web, what I has always been somethings I wanted to do during college and graduate school.
+            I found my passion in creating and optimizing web, what has always been somethings I wanted to do during college and graduate school.
           </p>
 
           <p>
