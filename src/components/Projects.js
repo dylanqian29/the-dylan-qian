@@ -81,6 +81,21 @@ class Projects extends Component {
                 <p> Social network and events app for dancers using React Router, Passport.js, Bootstrap</p>
               </figcaption>
             </div>
+
+
+          <div className="project blackjack">
+            <figure className="project__pic">
+              <a href= "https://black-jack-challenge.herokuapp.com" >
+                <img src="https://s3-us-west-1.amazonaws.com/thedylanqian/project-blackjack.png" alt="" ></img>
+              </a>
+            </figure>
+            <figcaption className="project__caption">
+              <div className="project__name">
+                <a href= "https://black-jack-challenge.herokuapp.com"> Blackjack 21 Game </a>
+              </div>
+              <p> A simplifed blackjack 21 game using React and CSS</p>
+            </figcaption>
+          </div>
         </div>
       </section>
     );
