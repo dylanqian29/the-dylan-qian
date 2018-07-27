@@ -36,7 +36,7 @@ class Projects extends Component {
     return (
       <section className="section featured-projects">
         {this.state.isOpen && <Modal id={this.state.id} closeModal={this.closeModal}/>}
-        <div className="section__title"> Projects</div>
+        <div className="section__title"> Projects <br/>(Click the Demo)</div>
           <div className="section__content">
             <div className="project welp">
               <figure className="project__pic">
@@ -93,7 +93,7 @@ class Projects extends Component {
               <div className="project__name">
                 <a href= "https://black-jack-challenge.herokuapp.com"> Blackjack 21 Game </a>
               </div>
-              <p> A simplifed blackjack 21 game using React and CSS</p>
+              <p> A simplified blackjack 21 game using React and CSS</p>
             </figcaption>
           </div>
         </div>
