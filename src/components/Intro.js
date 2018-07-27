@@ -12,7 +12,7 @@ class Intro extends Component {
           </h1>
 
           <h2 className="intro__tagline">I'm
-            <span className="name"> Dylan Qian</span>, a San Francisco based full stack software engineer and dancer who focuses on building creative and beautiful interfaces
+            <span className="name"> Dylan Qian</span>, a San Francisco based full-stack software engineer and dancer who focuses on building creative and beautiful interfaces
             <span className="emoji technologist"></span>
           </h2>
 
