@@ -10,10 +10,12 @@ class Background extends Component {
         <div className="section__title">Background</div>
         <div className="section__content">
           <p>
-            I'm currently a Software Engineer and Teaching Associate at <a className="underline-link" href="https://www.hackreactor.com/" > Hack Reactor</a>  building applications with talented people and mentoring new engineers. I graduated from
-            <a className="underline-link" href="https://msem.engineering.jhu.edu/">the M.S in Engineering Management Program at Johns Hopkins University</a> in 2017.
-            After working as a Business Consultant at <a className="underline-link" href="http://www.unitedamgpartners.com/">United AMG Partners</a>, 
-            I found my passion in creating and optimizing web applications, which has always been something I wanted to pursue during college and grad school.
+            I'm currently an Associate Engineering Manager and Senior Software Engineer at <a className="underline-link" href="https://www.hackreactor.com/"> OneLogin </a> leading
+            a group of 8 engineers and building applications that allow companies easily and securely access their apps and build their own login pages for their customers.
+          </p>
+          <p>
+            I graduated from <a className="underline-link" href="https://msem.engineering.jhu.edu/">the M.S in Engineering Management Program </a> at <strong> Johns Hopkins University</strong> in 2017.
+            After working as a Business Consultant after graduation, I found my passion in creating and optimizing web applications, which has always been something I wanted to pursue during college and grad school.
           </p>
 
           <p>
@@ -23,7 +25,7 @@ class Background extends Component {
           </p>
 
           <p>
-            <strong>When I'm not in front of a computer</strong>, I'm probably dancing, looking for new restaurants,
+            When I'm not in front of a computer, I'm probably dancing, looking for new restaurants,
             or taking pictures for my friends.
           </p>
         </div>
