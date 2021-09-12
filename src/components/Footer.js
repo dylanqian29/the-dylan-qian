@@ -14,7 +14,7 @@ class Footer extends Component {
           <div className="bottom">
             <span>Dylan Qian </span>
             <img className="emoji" src="https://s3-us-west-1.amazonaws.com/thedylanqian/man-dancing.png" alt="emoji"/>
-              <span>2018</span>
+              <span>2021</span>
           </div>
         </div>
         <div className="footer__links">
