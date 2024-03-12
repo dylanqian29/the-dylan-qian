@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import waveImg from "../img/wave.png";
 import pointrightImg from "../img/pointright.png";
+import heroImg from "../img/hero.jpg";
 
 const HeroContainer = styled.div`
   width: 100%;
@@ -13,7 +14,7 @@ const HeroContainer = styled.div`
 const HeadlineWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
-  width: 60%;
+  width: 50%;
   display: flex;
 `;
 
@@ -35,7 +36,8 @@ const WaveEmoji = styled.img`
   width: 40px;
   height: 40px;
   cursor: pointer;
-  text-align: baseline;
+  margin-bottom: -2px;
+
   &:hover {
     animation: ${wave} 1s ease-in-out infinite; /* Apply the animation on hover */
   }
@@ -70,24 +72,26 @@ const PointerEmoji = styled.img`
   width: 30px;
   height: 30px;
   margin: 0 5px;
-  text-align: baseline;
   cursor: pointer;
+  margin-bottom: -6px;
 
   &:hover {
     animation: ${point} 1s ease-in-out infinite; /* Apply the animation on hover */
   }
 `;
 
-const HeroImageWrapper = styled.img`
+const HeroImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
+  max-width: 550px;
   margin: 0 auto;
-  max-width: 480px;
 `;
 
-const HeroImage = styled.img``;
+const HeroImage = styled.img`
+  width: 100%;
+`;
 
 const Hero = () => (
   <HeroContainer>
@@ -115,10 +119,7 @@ const Hero = () => (
       </Contact>
     </HeadlineWrapper>
     <HeroImageWrapper className="picture">
-      {/* <HeroImage
-        src="https://s3-us-west-1.amazonaws.com/thedylanqian/dylanqian.JPG"
-        alt=""
-      /> */}
+      <HeroImage src={heroImg} alt="Hero img" />
     </HeroImageWrapper>
   </HeroContainer>
 );
