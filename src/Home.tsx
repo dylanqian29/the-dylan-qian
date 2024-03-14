@@ -1,7 +1,7 @@
 import React from "react";
 
 import Hero from "./components/Hero";
-// import Background from '../components/Background.js'
+import BackgroundAndSkill from "./components/BackgroundAndSkill";
 // import Skills from '../components/Skills.js'
 // import Experience from '../components/Experience.js'
 // import Projects from '../components/Projects.js'
@@ -11,8 +11,8 @@ const Home = () => (
   <>
     {/* <Switch />  */}
     <Hero />
-    {/* <Background />
-      <Skills />
+    <BackgroundAndSkill />
+    {/* <Skills />
       <Experience />
       <Projects /> */}
     {/* <Other /> */}

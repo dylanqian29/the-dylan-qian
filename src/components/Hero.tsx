@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 import waveImg from "../img/wave.png";
 import pointrightImg from "../img/pointright.png";
 import heroImg from "../img/hero.jpg";
+import colors from "../constants/colors";
 
 const HeroContainer = styled.div`
   width: 100%;
@@ -80,6 +81,19 @@ const PointerEmoji = styled.img`
   }
 `;
 
+const HighlightLink = styled.a`
+  font-weight: 400;
+  display: inline-block;
+  padding: 2px 3px;
+  box-shadow: inset 0 -3px 0 ${colors.blue};
+  transition: box-shadow 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    box-shadow: inset 0 -33px 0 0 ${colors.blue};
+    color: ${colors.white};
+  }
+`;
+
 const HeroImageWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -94,7 +108,7 @@ const HeroImage = styled.img`
 `;
 
 const Hero = () => (
-  <HeroContainer>
+  <HeroContainer id="hero">
     <HeadlineWrapper>
       <Headline>
         <strong> Hello!你好！</strong>
@@ -112,9 +126,12 @@ const Hero = () => (
         <span>Get in touch </span>
         <PointerEmoji src={pointrightImg} alt="" />
         <span>
-          <a href="mailto:dylan.qian.29@gmail.com" className="highlight-link">
+          <HighlightLink
+            href="mHighlightLinkilto:dylan.qian.29@gmail.com"
+            className="highlight-link"
+          >
             dylan.qian.29@gmail.com
-          </a>
+          </HighlightLink>
         </span>
       </Contact>
     </HeadlineWrapper>
