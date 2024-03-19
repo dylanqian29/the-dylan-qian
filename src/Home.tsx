@@ -1,20 +1,20 @@
 import React from "react";
 
-import Hero from "./components/Hero";
-import BackgroundAndSkill from "./components/BackgroundAndSkill";
-// import Skills from '../components/Skills.js'
-// import Experience from '../components/Experience.js'
-// import Projects from '../components/Projects.js'
-// import Footer from '../components/Footer.js'
+import Hero from "./sections/Hero";
+import Background from "./sections/Background";
+import Skills from "./sections/Skills";
+import Experience from "./sections/Experience";
+// import Projects from '../sections/Projects.js'
+// import Footer from '../sections/Footer.js'
 
 const Home = () => (
   <>
     {/* <Switch />  */}
     <Hero />
-    <BackgroundAndSkill />
-    {/* <Skills />
-      <Experience />
-      <Projects /> */}
+    <Background />
+    <Skills />
+    <Experience />
+    {/* <Projects /> */}
     {/* <Other /> */}
     {/* <Footer /> */}
   </>

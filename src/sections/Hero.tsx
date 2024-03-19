@@ -4,7 +4,7 @@ import pointrightImg from "../img/pointright.png";
 import heroImg from "../img/hero.jpg";
 import colors from "../constants/colors";
 
-const HeroContainer = styled.div`
+const HeroContainer = styled.section`
   width: 100%;
   padding: 120px 100px;
   height: 100vh;
