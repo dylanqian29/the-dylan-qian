@@ -4,7 +4,7 @@ import Hero from "./sections/Hero";
 import Background from "./sections/Background";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
-// import Projects from '../sections/Projects.js'
+import Projects from "./sections/Projects";
 // import Footer from '../sections/Footer.js'
 
 const Home = () => (
@@ -14,7 +14,7 @@ const Home = () => (
     <Background />
     <Skills />
     <Experience />
-    {/* <Projects /> */}
+    <Projects />
     {/* <Other /> */}
     {/* <Footer /> */}
   </>
