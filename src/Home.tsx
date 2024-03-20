@@ -5,7 +5,7 @@ import Background from "./sections/Background";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
-// import Footer from '../sections/Footer.js'
+import Footer from "./sections/Footer";
 
 const Home = () => (
   <>
@@ -16,7 +16,7 @@ const Home = () => (
     <Experience />
     <Projects />
     {/* <Other /> */}
-    {/* <Footer /> */}
+    <Footer />
   </>
 );
 
