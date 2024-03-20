@@ -1,13 +1,20 @@
 import styled from "styled-components";
 import colors from "../constants/colors";
 import { Section, SectionTitle, SectionContent } from "../components/Section";
+import breakpoints from "../constants/breakpoints";
 
 const SkillsContent = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 `;
 
-const SkillsCategory = styled.div``;
+const SkillsCategory = styled.div`
+  @media (max-width: ${breakpoints.desktop}px) {
+    flex-basis: 45%;
+  }
+`;
 
 const SkillsCeteogryLabel = styled.div`
   font-weight: 700;

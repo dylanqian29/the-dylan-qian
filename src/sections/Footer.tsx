@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import colors from "../constants/colors";
+import breakpoints from "../constants/breakpoints";
 
 const FooterContainer = styled.footer`
   width: 100%;
@@ -8,11 +9,37 @@ const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    padding: 50px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    padding: 50px 30px;
+  }
 `;
 
 const Copyright = styled.div`
   font-weight: 700;
   width: 200px;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 4px;
+  }
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    flex-direction: column;
+    gap: 0px;
+  }
 `;
 
 const Links = styled.div`

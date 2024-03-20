@@ -3,6 +3,7 @@ import waveImg from "../img/wave.png";
 import pointrightImg from "../img/pointright.png";
 import heroImg from "../img/hero.jpg";
 import colors from "../constants/colors";
+import breakpoints from "../constants/breakpoints";
 
 const HeroContainer = styled.section`
   width: 100%;
@@ -10,17 +11,41 @@ const HeroContainer = styled.section`
   height: 100vh;
   max-width: 1440px;
   display: flex;
+  flex-direction: row;
+  gap: 4%;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 100px 60px;
+  }
 `;
 
 const HeadlineWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
-  width: 50%;
+  width: 48%;
   display: flex;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    width: 100%;
+  }
 `;
 
 const Headline = styled.h1`
   font-size: 2.5rem;
+
+  @media (max-width: ${breakpoints.largeDesktop}px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: ${breakpoints.desktop}px) {
+    font-size: 1.75rem;
+  }
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    font-size: 2rem;
+  }
 `;
 
 const wave = keyframes`
@@ -48,6 +73,22 @@ const Tagline = styled.h2`
   font-size: 2.5rem;
   font-weight: 300;
   max-width: 700px;
+
+  @media (max-width: ${breakpoints.largeDesktop}px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: ${breakpoints.desktop}px) {
+    font-size: 1.75rem;
+  }
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Name = styled.span`
@@ -98,9 +139,14 @@ const HeroImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 48%;
   max-width: 550px;
   margin: 0 auto;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 `;
 
 const HeroImage = styled.img`

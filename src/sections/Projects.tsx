@@ -3,11 +3,26 @@ import { Section, SectionTitle, SectionContent } from "../components/Section";
 import dataSyncUI from "../img/data-sync-ui.png";
 import dataSync from "../img/data-sync.png";
 import authConfig from "../img/auth-config.png";
+import breakpoints from "../constants/breakpoints";
 
 const Project = styled.div`
   display: flex;
   margin-bottom: 100px;
   width: 125%;
+
+  @media (max-width: ${breakpoints.largeDesktop}px) {
+    width: 115%;
+  }
+
+  @media (max-width: ${breakpoints.standardDesktop}px) {
+    width: 110%;
+  }
+
+  @media (max-width: ${breakpoints.desktop}px) {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 `;
 
 const ProjectFigure = styled.figure`
@@ -25,6 +40,12 @@ const ProjectFigCaption = styled.figcaption`
   width: 125px;
   flex-shrink: 0;
   margin-left: 30px;
+
+  @media (max-width: ${breakpoints.desktop}px) {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
 `;
 
 const ProjectName = styled.div`

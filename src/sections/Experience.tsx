@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { Section, SectionTitle, SectionContent } from "../components/Section";
 import arrow from "../img/arrow.png";
+import breakpoints from "../constants/breakpoints";
 
 const Jobs = styled.div`
   margin-bottom: 100px;
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    margin-bottom: 50px;
+  }
 `;
 
 const Job = styled.div`
@@ -13,6 +18,10 @@ const Job = styled.div`
 const JobDetail = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: ${breakpoints.mobile}px) {
+    flex-direction: column;
+  }
 `;
 
 const Company = styled.div`
