@@ -1,5 +1,6 @@
 import React from "react";
 
+import Switch from "./sections/Switch";
 import Hero from "./sections/Hero";
 import Background from "./sections/Background";
 import Skills from "./sections/Skills";
@@ -9,7 +10,7 @@ import Footer from "./sections/Footer";
 
 const Home = () => (
   <>
-    {/* <Switch />  */}
+    <Switch />
     <Hero />
     <Background />
     <Skills />
