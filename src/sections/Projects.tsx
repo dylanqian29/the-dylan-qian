@@ -96,7 +96,7 @@ const Projects = () => (
           <ProjectName>Data Sync</ProjectName>
           <ProjectDescription>
             Reduce latency significantly (99% for many payroll providers such as
-            Gusto). Enable enable quick retrieval of company, directory, and pay
+            Gusto). Enable quick retrieval of company, directory, and pay
             statements within secs.
           </ProjectDescription>
         </ProjectFigCaption>

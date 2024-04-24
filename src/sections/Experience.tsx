@@ -62,6 +62,33 @@ const Experience = () => (
         <Job>
           <JobDetail>
             <Company>
+              <a>Stealth Crypto Gaming Startup</a>
+            </Company>
+            <Time>Jan 2024 - Present</Time>
+          </JobDetail>
+          <div>Game Experience Lead</div>
+        </Job>
+        <Job>
+          <JobDetail>
+            <Company>
+              <a>OnlyExpQ LLC, a short-term rental company</a>
+            </Company>
+            <Time>Jan 2024 - Present</Time>
+          </JobDetail>
+          <div>Owner </div>
+        </Job>
+        <Job>
+          <JobDetail>
+            <Company>
+              <a>GimmeQ LLC, a long-term rental company</a>
+            </Company>
+            <Time>May 2017 - Present</Time>
+          </JobDetail>
+          <div>Owner </div>
+        </Job>
+        <Job>
+          <JobDetail>
+            <Company>
               <a href="https://tryfinch.com/">Finch</a>
             </Company>
             <Time>Dec 2021 - July 2023</Time>
@@ -75,34 +102,16 @@ const Experience = () => (
             </Company>
             <Time>June 2021 - Dec 2021</Time>
           </JobDetail>
-          <div>Associate Engineering Manager (Portal Product Team)</div>
+          <div>Engineering Manager - Portal Product Team</div>
         </Job>
         <Job>
           <JobDetail>
             <Company>
               <a href="https://www.onelogin.com/">OneLogin</a>
             </Company>
-            <Time>Mar 2021 - Jun 2021</Time>
+            <Time>Sept 2018 - Jun 2021</Time>
           </JobDetail>
-          <div>Senior Software Engineer</div>
-        </Job>
-        <Job>
-          <JobDetail>
-            <Company>
-              <a href="https://www.onelogin.com/">OneLogin</a>
-            </Company>
-            <Time>Mar 2019 - Feb 2021</Time>
-          </JobDetail>
-          <div>Software Engineer III</div>
-        </Job>
-        <Job>
-          <JobDetail>
-            <Company>
-              <a href="https://www.onelogin.com/">OneLogin</a>
-            </Company>
-            <Time>Sept 2018 - Feb 2019</Time>
-          </JobDetail>
-          <div>Software Engineer II</div>
+          <div>Software Engineer II ↗️ Senior Software Engineer</div>
         </Job>
         <Job>
           <JobDetail>

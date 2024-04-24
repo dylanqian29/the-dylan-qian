@@ -163,9 +163,9 @@ const Hero = () => (
 
       <Tagline>
         I'm
-        <Name> Dylan Qian</Name>, a San Francisco based full-stack software
-        engineer and dancer who focuses on building creative and beautiful
-        interfaces 👨🏻‍💻
+        <Name> Dylan Qian</Name>, a Southern California based full-stack
+        software engineer and real estate investor dedicated to delivering
+        exceptional experiences 👨🏻‍💻
       </Tagline>
 
       <Contact>
