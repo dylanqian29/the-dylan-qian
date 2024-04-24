@@ -47,11 +47,8 @@ const Skills = () => (
           <SkillsCeteogryLabel>Languages</SkillsCeteogryLabel>
           <ul>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-javascript-plain"></SkillLogo>{" "}
-              JavaScript (ES6)
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-ruby-plain"></SkillLogo> Ruby
+              <SkillLogo className="devicon-javascript-plain"></SkillLogo>
+              JavaScript
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-html5-plain"></SkillLogo> HTML5
@@ -60,13 +57,14 @@ const Skills = () => (
               <SkillLogo className="devicon-css3-plain"></SkillLogo> CSS3
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-sass-original"></SkillLogo> Sass
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-python-plain"></SkillLogo> Python
+              <SkillLogo className="devicon-tailwindcss-original"></SkillLogo>
+              Tailwind
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-postgresql-plain"></SkillLogo> SQL
+            </SkillsCategoryItem>
+            <SkillsCategoryItem>
+              <SkillLogo className="devicon-python-plain"></SkillLogo> Python
             </SkillsCategoryItem>
           </ul>
         </SkillsCategory>
@@ -77,21 +75,22 @@ const Skills = () => (
               <SkillLogo className="devicon-react-original"></SkillLogo> React
             </SkillsCategoryItem>
             <SkillsCategoryItem>
+              <SkillLogo className="devicon-reactrouter-plain"></SkillLogo>
+              React Router
+            </SkillsCategoryItem>
+            <SkillsCategoryItem>
+              <SkillLogo className="devicon-bootstrap-plain"></SkillLogo>
+              Bootstrap
+            </SkillsCategoryItem>
+            <SkillsCategoryItem>
               <SkillLogo className="devicon-nodejs-plain"></SkillLogo> Node.js
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-express-original"></SkillLogo>{" "}
+              <SkillLogo className="devicon-express-original"></SkillLogo>
               Express
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-rails-plain"></SkillLogo> Ruby on
-              Rails
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-mocha-plain"></SkillLogo> Mocha
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-jasmine-plain"></SkillLogo> Jasmine
+              <SkillLogo className="devicon-jest-plain"></SkillLogo> Jest
             </SkillsCategoryItem>
           </ul>
         </SkillsCategory>
@@ -99,27 +98,25 @@ const Skills = () => (
           <SkillsCeteogryLabel>Tools</SkillsCeteogryLabel>
           <ul>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-amazonwebservices-original"></SkillLogo>{" "}
+              <SkillLogo className="devicon-amazonwebservices-plain-wordmark"></SkillLogo>{" "}
               AWS
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-webpack-plain"></SkillLogo> Webpack
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-docker-plain"></SkillLogo> Docker
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-heroku-original"></SkillLogo> Heroku
+              <SkillLogo className="devicon-netlify-plain"></SkillLogo>
+              Netlify
+            </SkillsCategoryItem>
+            <SkillsCategoryItem>
+              <SkillLogo className="devicon-vercel-original colored"></SkillLogo>
+              Vercel
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-redis-plain"></SkillLogo> Redis
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-bootstrap-plain"></SkillLogo>{" "}
-              Bootstrap
-            </SkillsCategoryItem>
-            <SkillsCategoryItem>
-              <SkillLogo className="devicon-babel-plain"></SkillLogo> Babel
+              <SkillLogo className="devicon-postman-plain"></SkillLogo> Postman
             </SkillsCategoryItem>
           </ul>
         </SkillsCategory>
@@ -133,15 +130,13 @@ const Skills = () => (
               <SkillLogo className="devicon-github-plain"></SkillLogo> Github
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-chrome-plain"></SkillLogo> Chrome
-              DevTools
+              <SkillLogo className="devicon-vscode-plain"></SkillLogo> VS Code
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <PostmanLogo
-                src="https://s3-us-west-1.amazonaws.com/thedylanqian/postman.jpg"
-                alt="postman logo"
-              />
-              Postman
+              <SkillLogo className="devicon-vite-original"></SkillLogo> Vite
+            </SkillsCategoryItem>
+            <SkillsCategoryItem>
+              <SkillLogo className="devicon-nextjs-plain"></SkillLogo> Next.js
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-mongodb-plain"></SkillLogo> MongoDB
