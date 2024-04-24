@@ -32,12 +32,6 @@ const SkillLogo = styled.i`
   margin-right: 8px;
 `;
 
-const PostmanLogo = styled.img`
-  margin-right: 9px;
-  margin-top: 2px;
-  width: 14.5px;
-`;
-
 const Skills = () => (
   <Section id="skills">
     <SectionTitle>Skills</SectionTitle>
