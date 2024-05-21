@@ -51,8 +51,8 @@ const Skills = () => (
               <SkillLogo className="devicon-css3-plain"></SkillLogo>CSS3
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-tailwindcss-original"></SkillLogo>
-              Tailwind
+              <SkillLogo className="devicon-typescript-plain"></SkillLogo>
+              TypeScript
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-postgresql-plain"></SkillLogo>SQL
@@ -77,11 +77,11 @@ const Skills = () => (
               Bootstrap
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-nodejs-plain"></SkillLogo>Node.js
+              <SkillLogo className="devicon-tailwindcss-original"></SkillLogo>
+              Tailwind
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-express-original"></SkillLogo>
-              Express
+              <SkillLogo className="devicon-nodejs-plain"></SkillLogo>Node.js
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-jest-plain"></SkillLogo>Jest
