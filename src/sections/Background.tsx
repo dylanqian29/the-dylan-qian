@@ -39,16 +39,16 @@ const Background = () => (
     <SectionTitle>Background</SectionTitle>
     <SectionContent>
       <BackgroundParagraph>
-        I'm currently leading frontend development for an innovative startup in
-        the burgeoning crypto gaming industry (🤫details are currently under
-        wraps🤫). Prior to this role, I embarked on a transformative six-month
-        sabbatical, traveling the globe and immersing myself in diverse
-        experiences. Concurrently, I expanded my real estate portfolio by
-        launching my very first Airbnb, adding another dimension to my
-        investment endeavors. Despite their apparent differences, both ventures
-        share a common commitment: providing unparalleled experiences. I firmly
-        believe that users engaging with an application deserve nothing less
-        than an intuitive, 5⭐️ hotel experience that not only evokes the
+        I'm currently leading frontend development at Finfare, crafting seamless
+        web and mobile experiences for business banking, expense management, and
+        rewards-driven financial products. Prior to this role, I embarked on a
+        transformative six-month sabbatical, traveling the globe and immersing
+        myself in diverse experiences. Concurrently, I expanded my real estate
+        portfolio by launching my very first Airbnb, adding another dimension to
+        my investment endeavors. Despite their apparent differences, both
+        ventures share a common commitment: providing unparalleled experiences.
+        I firmly believe that users engaging with an application deserve nothing
+        less than an intuitive, 5⭐️ hotel experience that not only evokes the
         comfort of home but also entices them to prolong their stay.
       </BackgroundParagraph>
       <BackgroundParagraph>

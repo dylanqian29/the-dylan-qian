@@ -62,11 +62,11 @@ const Experience = () => (
         <Job>
           <JobDetail>
             <Company>
-              <a>Stealth Crypto Gaming Startup</a>
+              <a href="https://www.finfare.com">Finfare</a>
             </Company>
-            <Time>Jan 2024 - Present</Time>
+            <Time>July 2024 - Present</Time>
           </JobDetail>
-          <div>Game Experience Lead</div>
+          <div>Senior Frontend Engineer</div>
         </Job>
         <Job>
           <JobDetail>
@@ -85,6 +85,15 @@ const Experience = () => (
             <Time>May 2017 - Present</Time>
           </JobDetail>
           <div>Owner </div>
+        </Job>
+        <Job>
+          <JobDetail>
+            <Company>
+              <a>Stealth Crypto Gaming Startup</a>
+            </Company>
+            <Time>Jan 2024 - Apr 2024</Time>
+          </JobDetail>
+          <div>Game Experience Lead</div>
         </Job>
         <Job>
           <JobDetail>

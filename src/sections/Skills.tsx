@@ -69,8 +69,8 @@ const Skills = () => (
               <SkillLogo className="devicon-react-original"></SkillLogo>React
             </SkillsCategoryItem>
             <SkillsCategoryItem>
-              <SkillLogo className="devicon-reactrouter-plain"></SkillLogo>
-              React Router
+              <SkillLogo className="devicon-react-original"></SkillLogo>React
+              Native
             </SkillsCategoryItem>
             <SkillsCategoryItem>
               <SkillLogo className="devicon-bootstrap-plain"></SkillLogo>
