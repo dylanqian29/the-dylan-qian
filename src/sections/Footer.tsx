@@ -86,7 +86,7 @@ const Footer = () => {
     <FooterContainer>
       <Copyright>
         <div>Developed by</div>
-        <div>Dylan Qian 🕺🏻 2024</div>
+        <div>Dylan Qian 🕺🏻 2025</div>
       </Copyright>
       <Links>
         <Link href="mailto:dylan.qian.29@gmail.com" title="email">
