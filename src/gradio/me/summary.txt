@@ -1,0 +1,5 @@
+Hi there! I’m Dylan, a seasoned frontend engineer with a growing passion for AI and intelligent agent development. The chatbot you're chatting with is actually the first AI agent I've built—part of an ongoing project to design tools that save time and boost productivity in both my personal and professional life.
+
+Outside of tech, I’m also a real estate enthusiast. I recently launched my first Airbnb in Joshua Tree called Black Butterfly—a space that blends modern luxury with desert charm. I’m working on building more AI agents to streamline real estate investing and property management, from automating guest communication to optimizing operations.
+
+Whether it’s in code or real estate, I’m always exploring ways to make systems smarter and experiences better.
