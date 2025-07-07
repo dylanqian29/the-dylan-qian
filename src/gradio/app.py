@@ -11,10 +11,6 @@ load_dotenv(override=True)
 
 
 def push(text):
-    print(f"Pushing {text}")
-    print(os.getenv("PUSHOVER_TOKEN"))
-    print(os.getenv("PUSHOVER_USER"))
-
     requests.post(
         "https://api.pushover.net/1/messages.json",
         data={
@@ -26,13 +22,11 @@ def push(text):
 
 
 def record_user_details(email, name="Name not provided", notes="not provided"):
-    print(f"Recording {name} with email {email} and notes {notes}")
     push(f"Recording {name} with email {email} and notes {notes}")
     return {"recorded": "ok"}
 
 
 def record_unknown_question(question):
-    print(f"Recording {question}")
     push(f"Recording {question}")
     return {"recorded": "ok"}
 
