@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { useState } from "react";
 import waveImg from "../img/wave.png";
 import pointrightImg from "../img/pointright.png";
 import heroImg from "../img/hero.jpg";
@@ -8,16 +9,26 @@ import breakpoints from "../constants/breakpoints";
 const HeroContainer = styled.section`
   width: 100%;
   padding: 120px 100px;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  @media (max-width: ${breakpoints.tablet}px) {
+    height: 100%;
+    padding: 50px 35px;
+  }
+`;
+
+const HeroContent = styled.div`
   display: flex;
   flex-direction: row;
   gap: 4%;
+  flex: 1;
 
   @media (max-width: ${breakpoints.tablet}px) {
     flex-direction: column-reverse;
-    height: 100%;
-    padding: 100px 60px;
   }
 `;
 
@@ -153,38 +164,76 @@ const HeroImage = styled.img`
   width: 100%;
 `;
 
-const Hero = () => (
-  <HeroContainer id="hero">
-    <HeadlineWrapper>
-      <Headline>
-        <strong> Hello!你好！</strong>
-        <WaveEmoji src={waveImg} alt="" />
-      </Headline>
+const Chatbot = styled.section`
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+`;
 
-      <Tagline>
-        I'm
-        <Name> Dylan Qian</Name>, a Southern California based full-stack
-        software engineer and real estate investor dedicated to delivering
-        exceptional experiences 👨🏻‍💻
-      </Tagline>
+const Hero = () => {
+  const [showChatbot, setShowChatbot] = useState(false);
 
-      <Contact>
-        <span>Get in touch </span>
-        <PointerEmoji src={pointrightImg} alt="" />
-        <span>
-          <HighlightLink
-            href="mHighlightLinkilto:dylan.qian.29@gmail.com"
-            className="highlight-link"
-          >
-            dylan.qian.29@gmail.com
-          </HighlightLink>
-        </span>
-      </Contact>
-    </HeadlineWrapper>
-    <HeroImageWrapper className="picture">
-      <HeroImage src={heroImg} alt="Hero img" />
-    </HeroImageWrapper>
-  </HeroContainer>
-);
+  const handleChatClick = () => {
+    setShowChatbot(!showChatbot);
+  };
+
+  return (
+    <HeroContainer id="hero">
+      <HeroContent>
+        <HeadlineWrapper>
+          <Headline>
+            <strong> Hello!你好！</strong>
+            <WaveEmoji src={waveImg} alt="" />
+          </Headline>
+
+          <Tagline>
+            I'm
+            <Name> Dylan Qian</Name>, a Southern California based full-stack
+            software engineer and real estate investor dedicated to delivering
+            exceptional experiences 👨🏻‍💻
+          </Tagline>
+
+          <div>
+            <Contact>
+              <span>Get in touch </span>
+              <PointerEmoji src={pointrightImg} alt="" />
+              <span>
+                <HighlightLink
+                  href="mailto:dylan.qian.29@gmail.com"
+                  className="highlight-link"
+                >
+                  dylan.qian.29@gmail.com
+                </HighlightLink>
+              </span>
+            </Contact>
+            <Contact>
+              <span>Or click here to chat with me </span>
+              <PointerEmoji
+                src={pointrightImg}
+                alt=""
+                onClick={handleChatClick}
+                style={{ cursor: "pointer" }}
+              />
+            </Contact>
+          </div>
+        </HeadlineWrapper>
+        <HeroImageWrapper className="picture">
+          <HeroImage src={heroImg} alt="Hero img" />
+        </HeroImageWrapper>
+      </HeroContent>
+      {showChatbot && (
+        <Chatbot id="chatbot">
+          <iframe
+            src="https://dylanqian-dylan-qian-chatbot.hf.space"
+            frameBorder="0"
+            width="850"
+            height="537"
+          ></iframe>
+        </Chatbot>
+      )}
+    </HeroContainer>
+  );
+};
 
 export default Hero;
