@@ -19,20 +19,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-ENV/
-env.bak/
-venv.bak/
-.uv/
-
-# Environment variables
-.env
